@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+
+background-color: rgb(161, 147, 147);
+text-shadow: 2px 3px 18px blue;
+text-align: center;
+color: azure;
+        }
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        TABLE GENERAOTOR
+
+    </h1>
+    <!-- <script>
+    //     var i = 1
+    //     for (let i = 1; i < 91; i++) {
+             
+    //         if (i%9===0) {
+    //             document.write(`${9} X ${1} = ${i}`+"<br>")
+                
+    //         }
+    //     }
+    // </script>
+
+    //     <br>
+    //     <script>
+    //     for (let i = 1; i < 21; i++) {
+             
+    //          if (i%2===0) {
+    //              document.write(`${2} X ${1} = ${i}`+"<br>")
+                 
+    //          }
+    //      }
+    // </script> -->
+
+    <script>
+        var table = +prompt("GENERATE A TABLE")
+        for (let i = 1; i < (table*11); i++){
+            if (i %table ===0) {
+                document.write(`${table} X ${1} = ${i}`+"<br>")
+            }
+
+  }
+    </script>
+</body>
+</html>
